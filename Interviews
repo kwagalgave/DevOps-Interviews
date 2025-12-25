@@ -1,0 +1,161 @@
+1. Tcs.m4a
+1.	How do you ensure that Jenkins is able to connect to Kubernetes and deploy?
+2.	How do you set up the authentication between Jenkins and Kubernetes?
+3.	Have you set up any pipeline that is connecting to Kubernetes from Jenkins?
+4.	In Kubernetes, if container memory utilization and CPU are very high, what would you do to ensure the application in the container operates properly?
+5.	Have you done Horizontal Pod Autoscaling (HPA)? What steps are needed to perform it?
+6.	What parameters do you typically specify for autoscaling to work?
+7.	Apart from HPA, is there any other way of manual autoscaling you are familiar with?
+8.	In Kubernetes, you have two pods for a microservice application: order service and product service. Order service needs to call product service internally. How do you invoke one container service from another?
+9.	How do you actually call a service API in container A from container B?
+10.	You have an application running in a container inside a Kubernetes cluster that needs to read/write files to an S3 bucket. What would you do so that the code in the container can connect to S3 and read/write files?
+11.	How do you ensure the running container is actually using/assuming that IAM role?
+12.	Same scenario but the code is running on an EC2 instance with an S3 bucket having 10 folders; you must allow read/write only to one folder. How would you do it?
+13.	How would you configure the permissions/policy so that only one folder can be read or written and others cannot?
+
+________________________________________
+2. Ncs.m4a
+1.	Can you briefly introduce yourself and your IT experience till now?
+2.	How much are you comfortable with Terraform?
+3.	If you rate yourself in Terraform from 1 to 5, what would you give?
+4.	Can you explain your CI pipeline where you build AWS infrastructure using Terraform?
+5.	How are you running your Terraform code – via command line or pipeline?
+6.	What commands do you generally use to execute Terraform?
+7.	Suppose your state file gets lost somehow; how will you restore that file?
+8.	You need to find logs for a particular unique ID in WebLogic logs across many files; how will you find and collect them for the developer?
+9.	If there are 10 VMs and you don’t know on which EC2 server those logs are, how will you handle it?
+10.	When should SNS be used and when should SQS be used in AWS? At what scenarios?
+11.	Do you already have any offer in hand?
+12.	What is your last working date?
+13.	Apart from project ramp-down, what other motivations do you have for looking for a change?
+14.	Do you have any questions, for example about the tech stack you will get exposure to?
+
+________________________________________
+3. My-recording-12.m4a
+1.	Please give a quick introduction and professional summary, including your day-to-day activities and responsibilities.
+2.	Can you elaborate one or two CI/CD pipelines you worked on in current or previous projects?
+3.	Which tool are you using for CI/CD pipeline?
+4.	Can you elaborate how Jenkins is set up (initial configuration)?
+5.	We have a 3 tier application: React frontend, Java backend, MySQL database. How will you design a CI/CD pipeline for this application?
+6.	In that pipeline, what will you write to deploy this application on an EC2 machine?
+7.	What AWS services have you worked on?
+8.	What is the difference between IAM role and IAM policy?
+9.	There are files in an S3 bucket and you want to download them to an Ubuntu EC2 machine. How will you do it?
+10.	The same 3 tier application (React, Java, MySQL) has to be hosted on AWS services. Which services will you recommend and why?
+11.	In which subnet will you host the application if you are using EC2, and how will end users access it if it is in a private subnet?
+12.	Have you worked on EKS? What kinds of tasks or assignments have you done on EKS?
+13.	What monitoring tools have you worked on?
+14.	Why do you want to change your current company?
+
+________________________________________
+4. Ntt-data.m4a
+1.	Can we start with your brief introduction?
+2.	What do you understand by fault tolerance? With an example of a service (like RDS/S3), how can we achieve fault tolerance?
+3.	You mentioned deploying containerized applications. Did you use EKS for this?
+4.	Was the deployment automated (continuous deployment)?
+5.	Consider an application to be containerized on AWS with any CI/CD tool. What kind of infrastructure are we looking at, and how will CI/CD automation be implemented?
+6.	Since you used Prometheus and Grafana, what kind of metrics do you collect with Prometheus and for what purpose?
+7.	You are managing VPCs across different AWS accounts and want scalable, centralized communication between them. What does AWS provide for this?
+8.	In the same setup, you want connectivity between AWS and on prem data center with high bandwidth and low latency. Which service suits this requirement?
+9.	You want to block a specific IP address from accessing any resource in your VPC. What options do you have in AWS?
+10.	Have you worked with Lambda functions?
+11.	What considerations should you keep in mind while selecting Lambda for deploying a service?
+12.	You are designing infrastructure for an organization with multiple subdivisions and multiple AWS accounts (multi account strategy). Which services are useful for designing such infrastructure?
+13.	How do you manage cross account permissions?
+14.	Are S3 buckets global or regional resources?
+15.	What cost optimization techniques can you apply for S3 buckets?
+16.	An S3 bucket stores audit logs that must be shared with another non technical organization that has no AWS account, securely for a limited time. What option is available in AWS?
+17.	Have you worked on implementing secure communication internally (within AWS) and externally (from/to internet)? What services are used and how does it work?
+
+________________________________________
+5. LtI.m4a
+1.	Please quickly introduce yourself.
+2.	What are the key benefits of continuous integration (CI) as per your understanding?
+3.	Whose time does CI save and how?
+4.	When you say CI helps with “error free” delivery, what do you mean?
+5.	Have you heard of continuous delivery and continuous deployment?
+6.	In your current project, do you follow continuous deployment or continuous delivery?
+7.	For continuous delivery vs continuous deployment, which environments do you refer to (staging, pre prod, prod) and how do you use each?
+
+________________________________________
+6. Interview.m4a
+1.	Tell me about yourself and your day to day responsibilities.
+2.	What is the difference between git fetch and git pull?
+3.	What is a merge conflict?
+4.	What is the difference between continuous delivery and continuous deployment?
+5.	What branching strategy have you used?
+6.	What is the difference between a subnet and a security group?
+7.	You have to design a 3 tier application on the cloud. From a cloud security perspective, how will you secure the application?
+8.	What is a service mesh?
+9.	How do you perform root cause analysis (RCA) after an incident?
+10.	Do you have any questions (e.g., about tech stack exposure if everything goes well)?
+
+________________________________________
+7. 09-12-25.m4a
+1.	Can you go through your resume and briefly explain your roles and responsibilities?
+2.	Can you speak more about your complete CI/CD pipeline setup?
+3.	Can you share your screen and write the steps in your CI/CD pipeline?
+4.	Apart from Jenkins, do you have exposure to other CI/CD tools?
+5.	You mentioned Trivy. How are you integrating Trivy in your CI/CD pipeline?
+6.	Are you using an enterprise version of Trivy? Can you explain the licensing part?
+7.	How are you managing vulnerabilities or security issues in your infrastructure? How do you report and track them?
+8.	What are the differences between a security group and a NACL in AWS?
+9.	Can you write the backend configuration you are using in Terraform for remote state/lock? Which backend are you using?
+10.	Can you explain how you are managing Terraform state?
+11.	How do you upgrade your Kubernetes/EKS cluster version from an older version to the latest? Explain the process.
+12.	You mentioned Web Application Firewall (WAF). Can you explain more on that?
+13.	If you lost your .pem key for an EC2 instance, what are the possibilities to log into that machine again?
+14.	Technically, using a .pem key, how are you able to log in to EC2? Explain the backend mechanism.
+15.	What S3 storage classes are available?
+
+________________________________________
+8. Synecron-Interview.m4a
+1.	Can you give a brief about yourself?
+2.	Can you give the architecture of your application at infrastructure level and explain how traffic flows?
+3.	Your ALB is internet facing; why do you need a NAT gateway in that design?
+4.	How is connectivity happening from internet to private subnets in your setup?
+5.	Which DNS are you using for your customer URL (e.g., Route 53)?
+6.	What record types are you using (A record, CNAME)?
+7.	What is the difference between an A record and a CNAME record?
+8.	Can you share your front camera / what is in front of you (identity check)?
+9.	How many EKS clusters or EKS based applications do you have, and how many applications are you supporting?
+10.	In which region are your customers hosted?
+11.	What is the approximate daily user traffic routed to your application?
+12.	How many worker nodes do you have in your EKS cluster?
+13.	What instance type are you using for worker nodes?
+14.	What kind of testing do you do (e.g., performance, load, etc.)?
+
+________________________________________
+9. Synecron2.m4a
+1.	Are you aware of this role and what exactly we are looking for? Did you get the JD or an explanation of the requirements?
+2.	Based on your understanding and current work, can you briefly describe what you are doing with AWS and related technologies?
+3.	This is mainly an operations job; are you managing the entire infrastructure and also a team? How many people are in your team?
+4.	When working with cloud compute in AWS (EC2), how do you decide which EC2 instance type suits your requirement? What do you check?
+5.	For setting up a highly available MS SQL cluster on AWS as an infra engineer (IaaS), which storage services would you use for:
+•	Primary database storage
+•	Backups and restores
+Why would you choose those services?
+6.	If you have 10 EC2 instances that must do read/writes to 100 S3 buckets, how will you ensure that all traffic between EC2 and S3 does not go via public internet within the same AWS account? What will you configure?
+
+________________________________________
+10. BRIDGEnext.m4a
+1.	In Kubernetes, how will you export logs of a running pod to your local machine? Which command will you use?
+2.	You receive an alert in your Slack channel: pod CPU usage has exceeded threshold in namespace web with severity critical. Can you explain what this alert means and what details you see?
+3.	Assuming you have a high CPU usage alert at 85% threshold, what will be your next steps to troubleshoot this alert?
+4.	Specifically, how will you check which process is causing high CPU usage inside the pod?
+5.	Given namespace web and pod name nginx, how will you run top to identify the process with high CPU?
+6.	How can you check disk usage on a system?
+7.	You are given a URL and want to check programmatically if it is up and running. How will you check it?
+8.	You have a huge log file and you want to see the last 10 lines. How can you check that?
+9.	There are multiple high priority incidents (HPIs) in production but you have limited team members. How will you decide the priority of the HPIs?
+10.	One HPI has been assigned to a NOC engineer and is stuck for a long time. How will you decide whether to escalate or let the engineer continue?
+11.	Can you describe any incident where you performed root cause analysis (RCA), solved a production issue, and were appreciated for it?
+12.	Have you worked on any Azure services? Which basic Azure services have you used?
+13.	Assume you want to create an Azure VM using Terraform. How will you create it (steps and blocks)?
+14.	Before running terraform apply for Azure, how will you authenticate/connect Terraform to your Azure cloud? (Token/credentials mechanism.)
+15.	What are access key and secret access key in AWS?
+16.	Where will you store your Terraform state file?
+17.	Do you have any questions about tools, technologies, or what else to focus on for this position?
+18. If you want, a next step can be to:
+
+
