@@ -1,0 +1,87 @@
+🧭 General & Hands-on
+
+Can you give a quick introduction about your experience and current role?
+
+Are you hands-on with Kubernetes activities?
+
+Are you hands-on with Terraform?
+
+Are you hands-on with Bash scripting?
+
+Are you hands-on with CI/CD pipelines like Jenkins or Azure DevOps?
+
+Are you hands-on with Helm charts?
+
+Have you created a Kubernetes Service Account?
+
+🐛 Kubernetes Debugging
+
+If a microservice deployed in Kubernetes shows CrashLoopBackOff, how do you debug and fix it?
+
+What are the typical reasons for CrashLoopBackOff?
+
+What commands do you use to debug CrashLoopBackOff?
+
+How do you enable RBAC in Kubernetes (Roles, RoleBindings, ClusterRoles, ClusterRoleBindings)?
+
+What are the prerequisites for creating a custom Kubernetes role?
+
+How do you map AWS IAM users/roles to Kubernetes cluster access?
+
+As a cluster admin, how do you enforce read-only or limited access for some users?
+
+🔐 Security & Access
+
+How do you securely access AWS resources from applications running on Kubernetes?
+
+How do you map AWS IAM to Kubernetes using aws-auth ConfigMap or IRSA?
+
+Where do you handle SSL/TLS offloading in the cluster?
+
+What Kubernetes resources are used for TLS/SSL (Ingress, Certificate, Secret)?
+
+Where do you configure TLS certificates for a microservice?
+
+What is a Service Account and how is it used in access control?
+
+☸️ Kubernetes + DevOps
+
+What manifests do you create for deploying a microservice (Deployment, Service, ConfigMap, Secret, Ingress, HPA)?
+
+How do you connect Jenkins to a Kubernetes cluster?
+
+How do you configure Jenkins to run jobs on Kubernetes agents?
+
+What are the key stages in a Jenkinsfile to build & deploy a Java microservice to EKS/AKS?
+
+📦 Containers & Helm
+
+How do you store and scan Docker images (Nexus, Trivy, ECR, etc.)?
+
+What tools do you use for container image scanning?
+
+In Helm, do you update chart.yaml or values.yaml for deployments?
+
+How do you deploy Helm charts in production?
+
+How do you connect monitoring tools like Prometheus & Grafana to EKS?
+
+🏗 Terraform + Secrets + Networking
+
+Can you write a Terraform module for creating a private EKS cluster using an existing AWS Secrets Manager value?
+
+How do you depict dependency on an existing AWS secret in Terraform?
+
+What is the difference between Public EKS vs Private EKS?
+
+How do you configure private networking for EKS (subnets, NAT, SG, endpoints)?
+
+📊 Monitoring & Scaling
+
+What Kubernetes metrics do you monitor in EKS using Prometheus?
+
+How do you configure HPA in production?
+
+How do you scale EKS NodeGroups using Cluster Autoscaler or Terraform?
+
+Do we need to enable anything from AWS console for Kubernetes monitoring?
