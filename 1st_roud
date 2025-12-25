@@ -1,0 +1,100 @@
+We’ll start with a quick round of introduction; can you please go ahead and introduce yourself and your day‑to‑day work?
+​
+
+Apart from Amdocs EKS work, what other application stacks or deployment methods have you handled?
+​
+
+What other AWS services apart from EKS have you worked on and have good experience with?
+​
+
+If you have to deal with real‑time data and need low latency and high availability, which AWS database service will you prefer and why?
+​
+
+In a hybrid cloud (AWS + Azure + on‑prem) where you build a data warehouse, what architecture and AWS services will you use to connect and move data between them?
+​
+
+In EKS, if you want a properly secure and highly available microservices application with a single entry point and security at each layer, what architecture comes to your mind?
+​
+
+Suppose you have a pod running in a private subnet and you want to access it via a non‑AWS SaaS API over the internet; how will you trace the full network flow and ensure all packets and EKS components are logged?
+​
+
+In that microservices setup with many pods, how will you allow only one specific pod to connect to the internet and block internet access for all other pods?
+​
+
+For that scenario, what will be your route table configuration, and how will you control access at pod/instance level instead of exposing the entire subnet?
+​
+
+How much experience do you have with EKS provisioning and administration?
+​
+
+Can you describe one complex EKS architecture you have built, especially focusing on security and how the networking components interact?
+​
+
+Which AWS services are global (region‑free)?
+​
+
+When would you use Route 53 and when would you use AWS CloudFront?
+​
+
+If you have an on‑prem server and a server in Azure that need to interact with AWS, what networking setup will you use (site‑to‑site VPN vs Direct Connect) and what would you prefer in that scenario?
+​
+
+How do you enable logging and monitoring for an EKS cluster using CloudWatch? What setup is required on both AWS and the cluster side?
+​
+
+After a new deployment in EKS you get a 504 Gateway Timeout, pod logs are clean and CPU is normal; what are your step‑by‑step troubleshooting actions from a user perspective?
+​
+
+What different kinds of applications have you deployed through CI/CD, and besides Jenkins have you used any other CI/CD tools like Azure DevOps or CircleCI?
+​
+
+For a Java microservice that depends on another private repository, can you outline the Jenkins pipeline stages to:
+
+resolve that external dependency,
+
+build the code,
+
+build a Docker image,
+
+scan it for vulnerabilities,
+
+push to ECR, and
+
+deploy to Kubernetes?
+​
+
+In that pipeline, what exactly happens in the build stage vs the “create Docker image” stage, and is it enough to just put a built JAR/WAR into the image?
+​
+
+How will you handle the private repository dependency in the pipeline when that dependency comes from another Java microservice in a separate private repo?
+​
+
+How much experience do you have with Terraform?
+​
+
+What kind of Terraform development work have you done (for example, infrastructure creation across environments)?
+​
+
+If a terraform apply fails halfway, the remote S3 state file gets corrupted, and some resources are already created, how will you recover the state file and ensure no data loss or duplicate resources when you re‑run terraform apply?
+​
+
+Do you have experience deploying Terraform code through a CI/CD pipeline?
+​
+
+You have a web application that must be highly available, low‑latency, and accessible from different parts of the world; which AWS services/architecture would you suggest?
+​
+
+For just the web front‑end, what is the best/easiest AWS solution to make sure it’s deployed across multiple Availability Zones for high availability, instead of manually using EC2 + ALB? Have you worked with Elastic Beanstalk?
+​
+
+Have you done any kind of test automation (for example, using Robot Framework)?
+​
+
+In your current Amdocs role, is it more of a lead role or an individual contributor role?
+​
+
+How many people are in your DevOps team, and what is the overall project team size?
+​
+
+Do you have any questions for us about the project, tech stack, or your future role and responsibilities?
