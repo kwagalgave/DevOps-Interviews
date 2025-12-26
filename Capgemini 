@@ -1,0 +1,55 @@
+Explain your typical DevOps pipeline—from repo checkout to deployment on Kubernetes—step by step.
+Are you using a declarative pipeline or a parameterized pipeline?
+Please explain your Jenkinsfile and the stages or steps involved.
+How do you integrate build tools like Maven in Jenkins? Explain logic, commands, and syntax.
+What exact command or code do you use to build a Maven application in Jenkins?
+What exact command or code do you use to build a Docker image in Jenkins?
+What exact command or code do you use to push code for SonarQube scanning in Jenkins?
+What syntax are you referring to, and what is its purpose?
+How do you authenticate with SonarQube in Jenkins?
+How do you securely authenticate SonarQube (credentials, token, or integration details)?
+What command do you use to build a Docker image?
+How do you integrate Kubernetes clusters with Jenkins?
+Is configuring Jenkins alone enough to integrate with Kubernetes? If not, what else is required?
+What is “assume role” and how is it used in DevOps or cloud environments?
+Explain your Helm chart configuration for Kubernetes—describe it in detail (not high level).
+Where do you store cluster connection configs, dependencies, and tool installations for Terraform, Docker, Helm, and Kubernetes?
+How is your infrastructure provisioned to support all DevOps tools and compute power?
+Where exactly is your Jenkins infrastructure set up? (Jenkins Master or a separate server?)
+Explain Jenkins Master configuration and installed software tools.
+List the main software tools installed on Jenkins Master.
+Explain Terraform files for infrastructure provisioning (with structure and logic).
+Explain state locking using DynamoDB and S3 in Terraform.
+If you need to add a new resource (e.g., RDS) to the existing Terraform plan, what steps will you take?
+What modifications do you make in Terraform scripts to add an RDS resource?
+After adding RDS in Terraform, how do you integrate it with existing AWS resources using Terraform?
+Explain AWS security for cloud components and Kubernetes workloads in detail.
+Explain security best practices you follow in AWS + Kubernetes environments.
+Difference between Internet Gateway and NAT Gateway?
+Difference between Application Load Balancer (ALB) and Network Load Balancer (NLB)?
+What do you know about DNS in AWS? Explain routing and record types.
+What port does DHCP use?
+What port does SSH use?
+Which monitoring and logging tools do you use for Kubernetes?
+How do you integrate Kubernetes with Prometheus and Grafana? Explain configuration step by step.
+From where does Prometheus collect data in Kubernetes clusters?
+How do you integrate Prometheus and Grafana with Kubernetes clusters?
+If Prometheus is installed in only one namespace, how do you collect data from other namespaces?
+Since namespaces are isolated, how do you fetch monitoring data across the entire Kubernetes cluster?
+What is Quality Gate in SonarQube?
+What are code smells, code bugs, and vulnerabilities?
+What is OWASP?
+Describe one Kubernetes or AWS vulnerability you faced and how you resolved it.
+Have you worked with databases in AWS or Kubernetes environments?
+Have you worked with AWS Shield?
+Have you worked with AWS WAF (Web Application Firewall)?
+Have you worked with any AWS firewall or DDoS protection services?
+What are the core SRE principles (SLA, SLO, SLIs)?
+What are the characteristics of SLA, SLO, and SLIs?
+How do you measure SRE metrics in production?
+What is an error budget in SRE?
+Do you know what is error budget? Can you define it?
+Define error budget.
+How do you track and maintain error budget in microservices or Kubernetes environments?
+How do you expose multiple microservices securely under one landing page, cost-effective, with proper routing and authorization?
+How do you reroute users to the correct microservice or department based on login credentials without using separate load balancers for each service?
