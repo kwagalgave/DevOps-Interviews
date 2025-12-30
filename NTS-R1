@@ -1,0 +1,24 @@
+�Please go ahead and introduce yourself, focusing on your day-to-day work.
+�Apart from Amdocs, what other application stacks or deployment methods have you handled?
+�What other AWS services besides EKS have you worked with extensively?
+�For real-time data with low latency and high availability, what AWS database service would you prefer and why?
+�In a hybrid cloud (AWS, Azure, on-prem), how would you architect a data warehouse with connectivity between environments?
+�For a secure, highly available microservices app on EKS with a single entry point, what architecture would you design (security at each layer)?
+�With a pod in a private subnet accessed via external non-AWS SaaS API over internet, trace the network flow and ensure packet traceability/logs for EKS components.
+�In a microservices setup, how do you allow only one specific pod internet access (not others or entire subnet)?
+�What route table configuration would you use, and how to control at pod/instance level without exposing the subnet?
+�How much experience do you have with EKS provisioning and administration? Can you describe a complex secure EKS architecture you've built (networking focus)?
+�What AWS services are region-free (global)? Why use Route 53 vs. CloudFront?
+�For on-prem and Azure servers interacting with AWS, what networking setup (VPN vs. Direct Connect) and why?
+�How do you enable logging/monitoring for an EKS cluster using CloudWatch (setup on both AWS and cluster sides)?
+�After deploying an app to EKS, getting 504 gateway timeout (no pod errors, normal CPU), what step-by-step troubleshooting?
+�What CI/CD tools have you used besides Jenkins (e.g., Azure DevOps, CircleCI)?
+�Share screen: For Java microservice with private repo dependency, outline Jenkins pipeline stages—focus on resolving external dependency, vulnerability scan (Trivy) before ECR push, then K8s deploy.
+�In build stage, how do you handle Docker image creation (Dockerfile inside build? JAR/WAR only?)?
+�How much Terraform experience? Describe a development project using it.
+�Terraform apply failed halfway (network timeout, corrupted remote S3 state file)—how to recover state with zero data loss/duplication?
+�Do you deploy Terraform via CI/CD pipeline?
+�For a highly available, low-latency web app accessible worldwide, what AWS services/solution?
+�For multi-AZ high availability on frontend/web app, what's the best AWS solution (beyond EC2/ALB)? Have you used Elastic Beanstalk?
+�Have you done automation scripting (e.g., Robot Framework)?
+�Is your Amdocs role more lead or individual? Team size (DevOps and overall project)?
