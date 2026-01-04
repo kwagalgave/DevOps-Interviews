@@ -20,5 +20,5 @@
 - For a highly available, low-latency web app accessible worldwide, what AWS services/solution?
 - For multi-AZ high availability on frontend/web app, what's the best AWS solution (beyond EC2/ALB)? Have you used Elastic Beanstalk?
 - Have you done automation scripting (e.g., Robot Framework)?
-- Is your Amdocs role more lead or individual? Team size (DevOps and overall project)?
+
 
