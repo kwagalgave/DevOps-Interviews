@@ -1,0 +1,17 @@
+
+    1. I want to deploy web app running on Kubernetes , highly available, globally accessible ? (Multiple AZ, HPA/Cluster-Autoscaler, VPC, Route53, Load-Balancer, monitoring and alerting with CloudWatch)
+    2. What measures will be implemented to secure the web application? What steps will be taken in response to a security attack on the web application?
+            (WAF, Shield , DDOS)
+    3. How will you update MS version without any downtime ?              (Blue-Green, Canary, Rolling Update)               Koti - Will give session on this deployment strategy. 
+    4. What is your Day-Day activities ? 
+             (Will differ as per Exp)
+             CI/CD Pipelines, Terraform - Frequently changing the infrastructure, Cloud Cost Optimisation, help team members if they are blocked,
+              Automate the things, Monitoring K8S cluster health
+    5.  How will you integrate the K8S cluster with Grafana/Prometheus to monitor health of K8S cluster ?
+              (Prometheus - Collecting the metrics, Grafana - will show it on dashboard)
+             (Rakesh/Suraj/Abhilash - Will give session on implementation of Grafana)
+    6. How will you do cost optimisation in your project ?
+             (Cloud  - ASG- Dynamic Scaling-Scheduler action, S3 - Storage/Retention period)
+    7. How many clusters you managed ? 
+             (20 Clusters- in multiple regions)
+    8. How do you do K8S Cluster upgrade ?               (AWS EKS - Need to collect more info)
